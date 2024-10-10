@@ -10,6 +10,7 @@ from agc import dereplication_fulllength
 from agc import get_identity
 from agc import abundance_greedy_clustering
 from agc import write_OTU
+import nwalign3 as nw
 
 
 def test_read_fasta(global_data):
